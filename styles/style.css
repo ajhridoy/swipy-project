@@ -1,0 +1,74 @@
+:root{
+    --primary-color: rgb(103, 34, 181);
+    --secondary-color: rgb(255, 116, 37); 
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+header{
+    background-image: url(../images/hero-shpae-min.webp);
+    background-repeat: no-repeat;
+}
+.nav-ul li{
+    font-size: 16px;
+    font-weight: 600;
+}
+.minus{
+    visibility: hidden;
+}
+.nav-ul li a:hover{
+    color: var(--primary-color);
+}
+.active{
+    color: var(--primary-color);
+}
+.nav-ul li a:hover .plus{
+    visibility: hidden;
+}
+.nav-ul li a:hover .minus{
+    visibility: visible;
+}
+#header-body{
+    padding-left: 55px;
+    height: 125vh;
+
+}
+.nav-contain{
+    padding: 0 34px;
+}
+#header-title{
+    font-size: 90px;
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+}
+#header-desc{
+    font-size: 18px;
+    font-weight: 400;
+}
+.button-head{
+    background-color: var(--primary-color);
+    border: none;
+    padding: 25px 35px;
+    font-size: 18px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+}
+.intro-link{
+    font-size: 18px;
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+    color: black;
+}
+.intro-link:hover{
+    color: var(--secondary-color);
+}
+.intro-link:hover .play{
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
+}
+.play{
+    border: 1px solid var(--primary-color);
+    padding: 22px 35px;
+    font-size: 18px;
+    color: var(--primary-color);
+}
