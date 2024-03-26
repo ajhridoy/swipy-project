@@ -273,14 +273,32 @@ header{
 
 /* work section styles */
 .work-process-sec{
-    padding: 45px 0 45px 45px;
+    /* padding: 45px 0 0 45px; */
+    padding-left: 45px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.work-process-head2{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+.work-process-head1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+.accordion{
+    width: 100%;
 }
 .accordion-item{
     border: none;
-    box-shadow: 10px 46px 56px 30px rgb(228, 223, 243);
+    width: 80%;
+    box-shadow: 4px 9px 9px rgb(228, 223, 243);
 }
 .accordion-body{
     background-color: white;
+    /* transition: 1s ease-in-out; */
 }
 .accordion-item:first-of-type>.accordion-header .accordion-button {
     /* border-radius: 20px; */
@@ -312,3 +330,197 @@ header{
 /* button:focus:not(:focus-visible) {
     outline: 0;
 } */
+
+/* plans-sec-style */
+.plans-sec{
+ padding: 150px 0;
+ background-color: rgb(250, 250, 254);
+}
+.plans{
+    width: 93%;
+    margin: 0 auto;
+}
+.plans-second-head{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+.plans-first-head{
+    font-size: 50px;
+    font-weight: 600;
+}
+.pricing-btn{
+    width: 15%;
+    margin: 0 auto;
+    background-color: #fff;
+    color: black !important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: var(--primary-color);
+}
+.nav-link{
+    color: black;
+}
+.card{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    border-radius: 20px;
+}
+.free-div{
+    border-bottom: 1px solid rgb(237, 237, 237);
+}
+.free{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--primary-color);
+    font-family: "Jost", sans-serif;
+}
+.dolor{
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--primary-color);
+    font-family: "Jost", sans-serif;
+}
+.personal{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    margin: 30px 0;
+}
+.users{
+    font-size: 16px;
+    font-weight: 400;
+}
+.users:hover{
+    color: var(--primary-color);
+}
+.started-btn{
+    width: 90%;
+    padding: 27px 0;
+    border: 1px solid var(--primary-color);
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-top: 30px;
+}
+.card:hover .started-btn{
+    background-color: var(--primary-color);
+    color: #fff;
+    /* border: none; */
+    
+}
+/* people saying sec styles */
+.people-sec{
+    padding: 160px 0;
+    background-color: rgb(253, 253, 254);
+}
+.people-say{
+    width: 92%;
+    margin: 0 auto;
+}
+.people-say-second-head{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+.people-say-first-head{
+    font-size: 50px;
+    font-weight: 600;
+}
+.apostopy{
+    width: 32px;
+    margin-bottom: 45px;
+}
+.apostopy2{
+    width: 32px;
+    margin-bottom: 45px;
+    display: none;
+}
+.swiper-slide:hover .apostopy2{
+    display: block;
+}
+.swiper-slide:hover .apostopy{
+    display: none;
+}
+.people-message{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+.client-img{
+    width: 60px;
+}
+.client-name{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+}
+.client-designation{
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(118, 118, 118);
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+  }
+
+  .swiper-slide {
+    /* text-align: center; */
+    /* font-size: 18px; */
+    background: rgb(255, 255, 255);
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+
+  .swiper-slide img {
+    /* display: block; */
+    /* width: 100%;
+    height: 100%; */
+    /* object-fit: cover; */
+  }
+
+/* .people-say .swiper-button-next:after, .people-say .swiper-button-prev:after {
+    font-size: 14px !important;
+    font-weight: 800;
+    color: white;
+    opacity: .3;
+    background-color: transparent;
+}
+
+.people-say .swiper-button-next, .people-say .swiper-button-prev{
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background: rgb(15, 15, 15);
+}
+.people-say .swiper-button-next:hover::after{
+    opacity: 1;
+}
+.people-say .swiper-button-prev:hover::after{
+    opacity: 1;
+}
+.people-say .swiper-button-prev{
+    right: 49px;
+    left: inherit;
+} */
+.companys{
+    width: 95%;
+    margin: 0 auto;
+}
+.com-img{
+    width: 155px;
+    height: 30px;
+}
+
+/* news-sec-style */
+.news-sec{
+    background-color: rgb(229, 229, 229);
+    padding: 150px 0;
+}
