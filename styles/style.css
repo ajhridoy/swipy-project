@@ -361,7 +361,7 @@ header{
 .nav-link{
     color: black;
 }
-.card{
+.pricing-card .card{
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 40px;
@@ -397,7 +397,7 @@ header{
 }
 .started-btn{
     width: 90%;
-    padding: 27px 0;
+    padding: 25px 0;
     border: 1px solid var(--primary-color);
     background-color: #fff;
     font-size: 18px;
@@ -405,7 +405,7 @@ header{
     color: var(--primary-color);
     margin-top: 30px;
 }
-.card:hover .started-btn{
+.pricing-card .card:hover .started-btn{
     background-color: var(--primary-color);
     color: #fff;
     /* border: none; */
@@ -468,7 +468,7 @@ header{
     margin-top: 100px;
   }
 
-  .swiper-slide {
+  .massages {
     /* text-align: center; */
     /* font-size: 18px; */
     background: rgb(255, 255, 255);
@@ -523,4 +523,59 @@ header{
 .news-sec{
     background-color: rgb(229, 229, 229);
     padding: 150px 0;
+}
+.news{
+    width: 99%;
+    margin: 0 auto;
+}
+.news-second-head{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+.news-first-head{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: -67px;
+}
+.news-card{
+    padding: 24px;
+    border-radius: 20px;
+}
+.ux-design-div{
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(229, 229, 229);
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.card-head{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    margin-top: 25px;
+}
+.card-head:hover{
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+.card-image{
+    border-radius: 20px;
+}
+.card-body .card-button{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+    font-family: "Poppins", sans-serif;
+}
+.card-body .card-button:hover{
+    color: var(--secondary-color);
+}
+.card-button .arrow{
+    transition: .4s transform ease-in-out;
+}
+.card-body .card-button:hover .arrow{
+    transform: translateX(10px);
 }
