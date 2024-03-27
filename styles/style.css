@@ -582,3 +582,62 @@ header{
 .card-body .card-button:hover .arrow{
     transform: translateX(10px);
 }
+/* lets-talk styles */
+.talk-sec{
+    padding: 80px 80px 0 15px;
+    background-color: rgb(103, 33, 181);
+}
+.contact-form input{
+    padding: 20px 15px;
+    width: 43%;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(114, 49, 186);
+    border: none;
+    border-radius: 10px;
+}
+.contact-form input:focus{
+    border-color: red;
+}
+.contact-form textarea{
+    background-color: rgb(114, 49, 186); 
+    border: none;
+    /* padding: 25px 0 0 25px; */
+    border-radius: 10px;
+}
+.contact-form input::placeholder{
+    color: rgb(198, 198, 198);
+    font-size: 18px;
+    font-weight: 400;
+}
+.contact-form textarea::placeholder{
+    color: rgb(198, 198, 198);
+    font-size: 18px;
+    font-weight: 400;
+}
+.sub-btn{
+    margin-top: 40px;
+}
+.sub-btn input{
+    padding: 25px 0px !important;
+    background-color: var(--secondary-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.phone-number{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
+.phn-icon{
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.fa-phone{
+    color: var(--secondary-color);
+}
